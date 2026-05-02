@@ -93,8 +93,50 @@ The pipeline includes:
 - photometric loss on finer scales.
 
 ## Inference
-The repository includes inference outputs and visualizations for sample sequences.
-Add a short demo video or representative flow visualization here.
+
+### Combined Visualization
+
+<p align="center">
+  <img src="docs/demo.gif" width="700"/>
+</p>
+
+This collage shows multiple aspects of the model output in a single view, including:
+- input frame pairs
+- predicted flow
+- intermediate representations
+- visual diagnostics
+
+---
+
+### Flow Direction (Quiver Plot)
+
+<p align="center">
+  <img src="docs/quiver.png" width="600"/>
+</p>
+
+The quiver plot represents flow vectors (direction + magnitude) at sampled points.
+
+---
+
+### Flow Components (U/V Maps)
+
+<p align="center">
+  <img src="docs/uv.png" width="700"/>
+</p>
+
+- **U (horizontal displacement)**
+- **V (vertical displacement)**
+
+These maps visualize the raw flow components learned by the model.
+
+---
+
+### Interpretation
+
+- Smooth regions → consistent motion  
+- Sharp transitions → motion boundaries / object edges  
+- Noise/artifacts → areas for further model improvement  
+
 ## Results and Visualizations
 The project includes:
 - diagnostic training plots,
