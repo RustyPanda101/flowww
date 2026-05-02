@@ -96,9 +96,7 @@ The pipeline includes:
 
 ### Combined Visualization
 
-<p align="center">
-  <img src="docs/demo.gif" width="700"/>
-</p>
+![Demo](docs/demo.gif)
 
 This collage shows multiple aspects of the model output in a single view, including:
 - input frame pairs
