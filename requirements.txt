@@ -1,0 +1,9 @@
+torch
+torchvision
+tqdm
+matplotlib
+numpy
+pillow
+imageio
+imageio[ffmpeg]
+opencv-python
