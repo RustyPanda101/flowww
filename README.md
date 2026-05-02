@@ -1,6 +1,6 @@
 # flowww
 
-Deep learning-based optical flow model for estimating dense motion between video frames, inspired by **RAFT**.
+Deep learning-based optical flow model for estimating dense motion between video frames.
 
 > **Status:** Early development. The architecture, training pipeline, and evaluation setup are still evolving.
 
