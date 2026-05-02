@@ -148,6 +148,4 @@ The project includes:
 - The notebook is the best reference for the latest implementation details.
 
 ## License
-```
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-```
