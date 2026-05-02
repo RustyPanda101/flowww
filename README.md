@@ -94,15 +94,13 @@ The pipeline includes:
 
 ## Inference
 
+Average Endpoint Error (EPE): **1.33** on inference samples
+
 ### Combined Visualization
 
 ![Demo](docs/demo.gif)
 
-This collage shows multiple aspects of the model output in a single view, including:
-- input frame pairs
-- predicted flow
-- intermediate representations
-- visual diagnostics
+This visualization summarizes model predictions, error signals, and flow characteristics in a single view.
 
 ---
 
@@ -135,13 +133,6 @@ These maps visualize the raw flow components learned by the model.
 - Sharp transitions → motion boundaries / object edges  
 - Noise/artifacts → areas for further model improvement  
 
-## Results and Visualizations
-The project includes:
-- diagnostic training plots,
-- flow magnitude histograms,
-- inference visualizations,
-- flow component plots,
-- sample output videos.
 ## Notes
 - This project is still under active development.
 - Architecture and training settings may change as the model is refined.
